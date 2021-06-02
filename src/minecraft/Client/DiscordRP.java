@@ -15,11 +15,10 @@ public class DiscordRP {
         this.created = System.currentTimeMillis();
         DiscordEventHandlers handlers = (new DiscordEventHandlers.Builder()).setReadyEventHandler(new ReadyCallback() {
            public void apply(DiscordUser user) {
-                System.out.println("Willkommen " + user.username + "#" + user.discriminator + ".");
                DiscordRP.this.update("Idle...", "");
             }
         }).build();
-        DiscordRPC.discordInitialize("815669369119309854", handlers, true);
+        DiscordRPC.discordInitialize("849671882721984533", handlers, true);
         (new Thread("Discord RPC Callback") {
             public void run() {
                 while (DiscordRP.this.running)
@@ -35,7 +34,7 @@ public class DiscordRP {
 
     public void update(String firstLine, String secondLine) {
         DiscordRichPresence.Builder b = new DiscordRichPresence.Builder(secondLine);
-        b.setBigImage("large", "");
+        b.setBigImage("large", "Geekie Client");
         b.setDetails(firstLine);
         b.setStartTimestamps(this.created);
         DiscordRPC.discordUpdatePresence(b.build());

@@ -8,7 +8,7 @@ public class ServerDataFeatured extends ServerData {
 	public static final ResourceLocation STAR_ICON = new ResourceLocation("clientname/start.png");
 
 	public ServerDataFeatured(String serverName, String serverIP) {
-		super(serverName, severIP, false);
+		super(serverName, serverIP, false);
 		}
 
 }

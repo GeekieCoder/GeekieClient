@@ -47,7 +47,7 @@ public class CosmeticWitchHat extends CosmeticBase {
   }
     	  String uuid = player.getUniqueID().toString();
     	 try {
- 			if(uuid.contains("dwaodbwabdwo8ad")) {
+ 			if(uuid.contains("9a5ce5d3-99c1-4535-8d57-d453454fc0d8") || uuid.contains("6941c887-55ad-3c2c-a9f9-d3ee80512510") || uuid.contains("7c73f844-73c3-3a7d-9978-004ba0a6436e") || uuid.contains("3e24ef27-e66d-45d2-bf4b-2c7ade68ff47")) {
  				
  				  GL11.glColor3d(DatabaseUtil.getDouble(uuid, "hat-r"), DatabaseUtil.getDouble(uuid, "hat-g"), DatabaseUtil.getDouble(uuid, "hat-b"));
  				  this.hatModel.render((Entity)player, limbSwing, limbSwingAmount, ageInTicks, headPitch, headPitch, scale);

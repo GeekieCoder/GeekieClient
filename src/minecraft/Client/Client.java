@@ -19,7 +19,7 @@ public class Client {
 	public static boolean Fullbright = ModToggle.loadEnabledFromFile("ModFullbright");
 	public static boolean FPS = ModToggle.loadEnabledFromFile("ModFPS");
 	public static boolean CPS = ModToggle.loadEnabledFromFile("ModCPS");
-	public static String Client_Name = "KOALA CLIENT";
+	public static String Client_Name = "Geekie Client";
 	public static String Client_Version = "1.0";
 	
 	public static boolean CosmeticWings = ModToggle.loadEnabledFromFile("ModWings");
@@ -43,7 +43,7 @@ public class Client {
 	public static boolean PotionEffekt = ModToggle.loadEnabledFromFile("ModPotionStatus");
 	public static boolean NAMETAG2 = ModToggle.loadEnabledFromFile("ModNameTags");
 	public static boolean Health = ModToggle.loadEnabledFromFile("ModHealth");
-	public static boolean  Biome = true;
+	public static boolean Biome = true;
 	public static boolean ping = ModToggle.loadEnabledFromFile("ModPing");
 	public static boolean togglesprint = ModToggle.loadEnabledFromFile("ModToggleSprint");
 	public static boolean strafe;
